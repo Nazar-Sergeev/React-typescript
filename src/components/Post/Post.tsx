@@ -1,6 +1,6 @@
 import {FC} from "react";
 
-const App:FC = () => {
+const Post:FC = () => {
     return (
         <div>
 
@@ -9,4 +9,4 @@ const App:FC = () => {
 };
 
 
-export default App;
+export {Post};
