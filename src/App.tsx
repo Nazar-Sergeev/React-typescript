@@ -1,9 +1,12 @@
 import {FC} from "react";
+import {Posts, Users} from "./components";
 
-const App:FC = () => {
+const App: FC = () => {
     return (
         <div>
-
+            <Users/>
+            <hr/>
+            <Posts/>
         </div>
     );
 };
